@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "676402576131",
+    "firebase_url": "https://itry-62264-default-rtdb.firebaseio.com",
+    "project_id": "itry-62264",
+    "storage_bucket": "itry-62264.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676402576131:android:2db6fc53e962be02908736",
+        "android_client_info": {
+          "package_name": "com.example.kyrsach"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuc27PhDraFQz1lHj6ZTIjtJO_8uoYYQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

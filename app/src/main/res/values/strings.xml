@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Kyrsach</string>
+    <string-array name="workout_types">
+        <item>Силовая тренировка</item>
+        <item>Кардио</item>
+        <item>Йога</item>
+        <item>Пилатес</item>
+        <item>Бег</item>
+    </string-array>
+</resources>

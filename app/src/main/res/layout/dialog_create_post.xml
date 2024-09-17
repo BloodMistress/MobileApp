@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:background="?android:attr/colorBackground">
+
+    <!-- Поле для ввода заголовка поста -->
+    <EditText
+        android:id="@+id/post_title_input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:layout_marginBottom="16dp"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Поле для ввода содержания поста с несколькими строками -->
+    <EditText
+        android:id="@+id/post_content_input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Content"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:inputType="textMultiLine"
+        android:minHeight="150dp"
+        android:gravity="top|start"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toBottomOf="@id/post_title_input"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/create_post_button" />
+
+    <!-- Кнопка для создания поста -->
+    <Button
+        android:id="@+id/create_post_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Post"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintTop_toBottomOf="@id/post_content_input"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
