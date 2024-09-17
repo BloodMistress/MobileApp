@@ -11,7 +11,7 @@ import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import android.view.MenuItem;
+
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.util.Locale;
 
